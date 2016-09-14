@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/about_background" android:background="@drawable/about_background" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:gravity="1" android:id="@id/logo" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/about_appsgeyser_logo" android:layout_weight="1.0" />
+    <TextView android:textSize="20sp" android:textColor="#000000" android:gravity="11" android:layout_gravity="11" android:id="@id/description" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:maxLines="3" android:layout_weight="1.0" />
+    <TextView android:textSize="17sp" android:textColor="#000000" android:gravity="11" android:id="@id/flagThisApp" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" />
+    <TextView android:textSize="13sp" android:textColor="#444444" android:gravity="11" android:id="@id/poweredSign" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" />
+</LinearLayout>

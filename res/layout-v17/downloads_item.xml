@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="10" android:orientation="1" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="60dp" android:weightSum="1.0" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="16sp" android:textColor="@color/activeTabText" android:ellipsize="3" android:id="@id/nameDI" android:layout_width="-1" android:layout_height="-2" android:text="New Text" android:maxLines="1" android:layout_toLeftOf="@id/time" android:layout_toStartOf="@id/time" />
+            <TextView android:textSize="14sp" android:gravity="5" android:id="@id/time" android:layout_width="50dp" android:layout_height="-2" android:text="1 Jan" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14sp" android:ellipsize="3" android:id="@id/descriptionDI" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16dp" android:text="New Text" android:maxLines="1" />
+        <ProgressBar android:id="@id/progressBarDI" android:visibility="2" android:layout_width="-1" android:layout_height="2dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:progressDrawable="@drawable/progress" style="?unknown_attr_ref: 1010078" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:background="#ffd6d7d7" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="20sp" android:textColor="#aaaa" android:gravity="10" android:layout_gravity="11" android:id="@id/textView" android:background="#fff" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="46dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/search_hint" android:drawableLeft="@drawable/ic_public_black_24dp" android:drawableRight="@drawable/ic_search_black_24dp" android:drawablePadding="8dp" android:layout_toLeftOf="@id/imageView" android:layout_toStartOf="@id/imageView" />
+</RelativeLayout>

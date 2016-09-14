@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true"
+        <RelativeLayout android:gravity="70" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/frame" android:layout_alignParentTop="true" android:foregroundGravity="50">
+            <com.wTouch2KiLL.controllers.ContentSwipeAwareViewPager android:gravity="30" android:id="@id/tabcontents_panel" android:layout_width="-1" android:layout_height="-1" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/frame" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010017" android:layout_alignParentBottom="true">
+            <com.astuetz.PagerSlidingTabStrip android:textColorPrimary="#fff" android:layout_gravity="30" android:id="@id/tabtags_panel" android:background="@color/colorPrimary" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010017" />
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

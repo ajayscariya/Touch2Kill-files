@@ -1,0 +1,98 @@
+package com.chartboost.sdk.Model;
+
+import com.chartboost.sdk.Libraries.C0262a;
+import com.chartboost.sdk.Libraries.C0276g;
+import com.chartboost.sdk.Libraries.C0276g.C0274a;
+import com.chartboost.sdk.Libraries.C0276g.C0275k;
+import com.wTouch2KiLL.storage.DatabaseOpenHelper;
+import mf.org.apache.xml.serialize.Method;
+
+/* renamed from: com.chartboost.sdk.Model.b */
+public class C0292b {
+    public static C0274a f621a;
+    public static C0274a f622b;
+    public static C0274a f623c;
+    public static C0274a f624d;
+    public static C0274a f625e;
+    public static C0274a f626f;
+    private static C0274a f627g;
+    private static C0274a f628h;
+    private static C0274a f629i;
+    private static C0274a f630j;
+    private static C0274a f631k;
+    private static C0274a f632l;
+
+    static {
+        f627g = C0276g.m480a(C0276g.m482a(DatabaseOpenHelper.HISTORY_ROW_URL, C0276g.m476a()), C0276g.m482a("id", C0276g.m476a()), C0276g.m482a("local-file", C0276g.m476a()), C0276g.m482a("buffer", C0276g.m477a(C0276g.m483b())));
+        C0275k[] c0275kArr = new C0275k[3];
+        c0275kArr[0] = C0276g.m482a(DatabaseOpenHelper.HISTORY_ROW_URL, C0276g.m476a());
+        c0275kArr[1] = C0276g.m482a("scale", C0276g.m477a(C0276g.m483b()));
+        c0275kArr[2] = C0276g.m482a("offset", C0276g.m477a(C0276g.m486b(C0276g.m482a("x", C0276g.m483b()), C0276g.m482a("y", C0276g.m483b()))));
+        f628h = C0276g.m480a(c0275kArr);
+        f629i = C0276g.m480a(C0276g.m482a("video-landscape", C0276g.m477a(f627g)), C0276g.m482a("video-portrait", C0276g.m477a(f627g)), C0276g.m482a("ad-landscape", C0276g.m477a(f628h)), C0276g.m482a("frame-landscape", C0276g.m477a(f628h)), C0276g.m482a("close-landscape", C0276g.m477a(f628h)), C0276g.m482a("replay-landscape", C0276g.m477a(f628h)), C0276g.m482a("ad-portrait", C0276g.m477a(f628h)), C0276g.m482a("frame-portrait", C0276g.m477a(f628h)), C0276g.m482a("close-portrait", C0276g.m477a(f628h)), C0276g.m482a("replay-portrait", C0276g.m477a(f628h)), C0276g.m482a("video-click-button", C0276g.m477a(f628h)), C0276g.m482a("post-video-icon", C0276g.m477a(f628h)), C0276g.m482a("post-video-button", C0276g.m477a(f628h)), C0276g.m482a("video-confirmation-icon", C0276g.m477a(f628h)), C0276g.m482a("video-confirmation-button", C0276g.m477a(f628h)), C0276g.m482a("post-video-reward-icon", C0276g.m477a(f628h)), C0276g.m482a("blur-background", C0276g.m477a(f628h)));
+        c0275kArr = new C0275k[11];
+        c0275kArr[0] = C0276g.m482a(NotificationCompatApi21.CATEGORY_PROGRESS, C0276g.m477a(C0276g.m486b(C0276g.m482a("delay", C0276g.m483b()), C0276g.m482a("background-color", C0276g.m476a()), C0276g.m482a("progress-color", C0276g.m476a()), C0276g.m482a("border-color", C0276g.m476a()), C0276g.m482a("radius", C0276g.m483b()))));
+        c0275kArr[1] = C0276g.m482a("video-controls-togglable", C0276g.m477a(C0276g.m487c()));
+        c0275kArr[2] = C0276g.m482a("video-controls-background", C0276g.m486b(C0276g.m482a("color", C0276g.m476a()), C0276g.m482a("border-color", C0276g.m476a())));
+        c0275kArr[3] = C0276g.m482a("post-video-toaster", C0276g.m477a(C0276g.m486b(C0276g.m482a(DatabaseOpenHelper.HISTORY_ROW_TITLE, C0276g.m476a()), C0276g.m482a("tagline", C0276g.m476a()))));
+        c0275kArr[4] = C0276g.m482a("pre-popup", C0276g.m477a(C0276g.m486b(C0276g.m482a(DatabaseOpenHelper.HISTORY_ROW_TITLE, C0276g.m476a()), C0276g.m482a(Method.TEXT, C0276g.m476a()), C0276g.m482a("confirm", C0276g.m476a()), C0276g.m482a("cancel", C0276g.m476a()))));
+        c0275kArr[5] = C0276g.m482a("post-popup", C0276g.m477a(C0276g.m486b(C0276g.m482a(DatabaseOpenHelper.HISTORY_ROW_TITLE, C0276g.m476a()), C0276g.m482a(Method.TEXT, C0276g.m476a()), C0276g.m482a("confirm", C0276g.m476a()))));
+        c0275kArr[6] = C0276g.m482a("cancel-popup", C0276g.m477a(C0276g.m486b(C0276g.m482a(DatabaseOpenHelper.HISTORY_ROW_TITLE, C0276g.m476a()), C0276g.m482a(Method.TEXT, C0276g.m476a()), C0276g.m482a("confirm", C0276g.m476a()), C0276g.m482a("cancel", C0276g.m476a()))));
+        c0275kArr[7] = C0276g.m482a("confirmation", C0276g.m477a(C0276g.m486b(C0276g.m482a(Method.TEXT, C0276g.m476a()), C0276g.m482a("color", C0276g.m476a()))));
+        c0275kArr[8] = C0276g.m482a("video-progress-timer-enabled", C0276g.m477a(C0276g.m487c()));
+        C0275k[] c0275kArr2 = new C0275k[2];
+        c0275kArr2[0] = C0276g.m482a(Method.TEXT, C0276g.m476a());
+        c0275kArr2[1] = C0276g.m482a("position", C0276g.m481a("inside-top", "outside-bottom"));
+        c0275kArr[9] = C0276g.m482a("post-video-reward-toaster", C0276g.m477a(C0276g.m486b(c0275kArr2)));
+        c0275kArr[10] = C0276g.m482a("play-another-popup", C0276g.m477a(C0276g.m486b(C0276g.m482a("skip-confirmation", C0276g.m487c()), C0276g.m482a(DatabaseOpenHelper.HISTORY_ROW_TITLE, C0276g.m476a()), C0276g.m482a(Method.TEXT, C0276g.m476a()), C0276g.m482a("cancel", C0276g.m476a()), C0276g.m482a("confirm", C0276g.m476a()))));
+        f630j = C0276g.m477a(C0276g.m480a(c0275kArr));
+        c0275kArr = new C0275k[14];
+        c0275kArr[0] = C0276g.m482a("close", C0276g.m477a(f628h));
+        c0275kArr[1] = C0276g.m482a("header-center", C0276g.m477a(f628h));
+        c0275kArr[2] = C0276g.m482a("header-tile", C0276g.m477a(f628h));
+        c0275kArr[3] = C0276g.m482a("header-height", C0276g.m477a(C0276g.m483b()));
+        c0275kArr[4] = C0276g.m482a("background-color", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[5] = C0276g.m482a("header-text", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[6] = C0276g.m482a("text-color", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[7] = C0276g.m482a("close-landscape", C0276g.m477a(f628h));
+        c0275kArr[8] = C0276g.m482a("header-landscape", C0276g.m477a(f628h));
+        c0275kArr[9] = C0276g.m482a("close-portrait", C0276g.m477a(f628h));
+        c0275kArr[10] = C0276g.m482a("header-portrait", C0276g.m477a(f628h));
+        c0275kArr[11] = C0276g.m482a("install-button", C0276g.m477a(f628h));
+        c0275kArr[12] = C0276g.m482a("play-button", C0276g.m477a(f628h));
+        c0275kArr[13] = C0276g.m482a("offset", C0276g.m477a(C0276g.m486b(C0276g.m482a("x", C0276g.m483b()), C0276g.m482a("y", C0276g.m483b()))));
+        f621a = C0276g.m480a(c0275kArr);
+        c0275kArr = new C0275k[12];
+        c0275kArr[4] = C0276g.m482a("assets", C0276g.m480a(C0276g.m482a("icon", f628h)));
+        c0275kArr[5] = C0276g.m482a(Method.TEXT, C0276g.m477a(C0276g.m476a()));
+        c0275kArr[6] = C0276g.m482a("link", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[7] = C0276g.m482a("deep-link", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[8] = C0276g.m482a("itunes_id", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[9] = C0276g.m482a("publisher", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[10] = C0276g.m482a("description", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[11] = C0276g.m482a("border-color", C0276g.m477a(C0276g.m476a()));
+        f631k = C0276g.m484b(C0276g.m480a(c0275kArr));
+        f622b = C0276g.m480a(C0276g.m482a(NotificationCompatApi21.CATEGORY_STATUS, C0262a.f458a), C0276g.m482a("ad_id", C0276g.m476a()), C0276g.m482a("to", C0276g.m476a()), C0276g.m482a("type", C0276g.m476a()), C0276g.m482a("native", C0276g.m477a(C0276g.m476a())), C0276g.m482a("message", C0276g.m476a()), C0276g.m482a("link", C0276g.m476a()), C0276g.m482a("deep-link", C0276g.m477a(C0276g.m476a())), C0276g.m482a("cgn", C0276g.m476a()), C0276g.m482a("creative", C0276g.m476a()), C0276g.m482a("assets", f629i), C0276g.m482a("ux", f630j), C0276g.m482a("reward", C0276g.m477a(C0276g.m478a(Object.class))));
+        c0275kArr = new C0275k[2];
+        c0275kArr[0] = C0276g.m482a("id", C0276g.m476a());
+        c0275kArr[1] = C0276g.m482a("elements", C0276g.m484b(C0276g.m480a(C0276g.m482a("type", C0276g.m476a()), C0276g.m482a("name", C0276g.m476a()), C0276g.m482a("value", C0276g.m476a()))));
+        f632l = C0276g.m484b(C0276g.m480a(c0275kArr));
+        f623c = C0276g.m480a(C0276g.m482a(NotificationCompatApi21.CATEGORY_STATUS, C0262a.f458a), C0276g.m482a("message", C0276g.m476a()), C0276g.m482a("to", C0276g.m476a()), C0276g.m482a("link", C0276g.m476a()), C0276g.m482a("cgn", C0276g.m476a()), C0276g.m482a("show_loading", C0276g.m477a(C0276g.m487c())), C0276g.m482a("creative", C0276g.m476a()), C0276g.m482a("ad_units", f632l), C0276g.m482a("ad_unit_id", C0276g.m476a()));
+        f624d = C0276g.m480a(C0276g.m482a(NotificationCompatApi21.CATEGORY_STATUS, C0262a.f458a), C0276g.m482a("message", C0276g.m476a()), C0276g.m482a("type", C0276g.m476a()), C0276g.m482a("assets", f621a), C0276g.m482a("cells", f631k));
+        c0275kArr = new C0275k[12];
+        c0275kArr[0] = C0276g.m482a(NotificationCompatApi21.CATEGORY_STATUS, C0262a.f458a);
+        c0275kArr[1] = C0276g.m482a("ad_id", C0276g.m476a());
+        c0275kArr[2] = C0276g.m482a("to", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[3] = C0276g.m482a("type", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[4] = C0276g.m482a("native", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[5] = C0276g.m482a("message", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[6] = C0276g.m482a("link", C0276g.m476a());
+        c0275kArr[7] = C0276g.m482a("name", C0276g.m476a());
+        c0275kArr[8] = C0276g.m482a("deep-link", C0276g.m477a(C0276g.m476a()));
+        c0275kArr[9] = C0276g.m482a("cgn", C0276g.m476a());
+        c0275kArr[10] = C0276g.m482a("creative", C0276g.m476a());
+        c0275kArr[11] = C0276g.m482a("icons", C0276g.m480a(C0276g.m482a("sm", C0276g.m476a()), C0276g.m482a("md", C0276g.m476a()), C0276g.m482a("lg", C0276g.m476a())));
+        f625e = C0276g.m480a(c0275kArr);
+        f626f = C0276g.m479a(f623c, f622b);
+    }
+}

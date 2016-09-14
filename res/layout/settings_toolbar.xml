@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/ActionBarThemeOverlay" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar_preference" android:background="?unknown_attr_ref: 7f010053" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f010017" android:minHeight="?unknown_attr_ref: 7f010017" />
+    <FrameLayout android:id="@id/content_frame" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/toolbar_preference" />
+</RelativeLayout>
